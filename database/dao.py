@@ -20,3 +20,6 @@ class DAO:
         cursor.close()
         conn.close()
         return result
+    @staticmethod
+    def get_artist_by_id(artist_id):
+
